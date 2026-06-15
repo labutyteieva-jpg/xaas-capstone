@@ -28,13 +28,13 @@ The inflated total propagated into the SME-share denominator and into the pitch 
 
 ## Important caveat to state in the midterm
 
-`ext_tec10` is *Trade by enterprise characteristics (TEC)*. It covers only trade that can be
-attributed to enterprises by size class, so its `WORLD` total **under-counts** relative to
-Lithuania's headline goods-export figure. The corrected TEC total (~EUR 32.5 bn, 2024) is the
-right basis for the **by-size and by-market decomposition**, but it is **not** the headline
-national export figure. For the latter, cite **Eurostat Comext** or **Statistics Lithuania**.
-(The commonly cited ~EUR 40 bn national figure is *unverified in this repo* and must be confirmed
-against Comext before use.)
+`ext_tec10` is *Trade by enterprise characteristics (TEC)*. It covers only trade attributable to enterprises by size class, so its `WORLD` total **under-counts** the headline goods-export figure. The corrected TEC total (~EUR 32.5 bn, 2024) is the right basis for the by-size/by-market split, not the headline.
+
+**Verified headline (2024):** total goods exports **EUR 36.8 bn**, imports **EUR 41.3 bn** (Statistics Lithuania, via urm.lt; corroborated by FocusEconomics, USD 39.7 bn ≈ EUR 36.8 bn). TEC under-counts the headline by ~EUR 4.3 bn (~12%). Use EUR 36.8 bn for "total exports"; TEC only for the size/market split. Verified 2026-06-15; for a citable primary table pull osp.stat.gov.lt or Eurostat Comext.
+
+**Trade balance:** imports exceed exports by ~EUR 4.5 bn (structural deficit). In 2024 both fell (exports -7.5%, imports -7.8%) — a persistent deficit, not rising imports vs falling exports.
+
+**Re-exports caveat:** EUR 36.8 bn includes substantial re-exports; exports of Lithuanian-origin goods are a smaller series and the more honest base for TAM/SAM/SOM (not yet pinned down).
 
 ## Corrected headline findings
 
